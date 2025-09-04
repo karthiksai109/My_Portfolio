@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-gradient-to-b from-gray-900 via-blue-900 to-purple-900 text-white;
+  font-family: 'Inter', sans-serif;
+}
