@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
 import profile from '../profile.jpeg'
+import resume from '../karthik_resume_.pdf'
 
 export default function Portfolio() {
   const [formData, setFormData] = useState({ name: "", email: "", msg: "" });
@@ -154,7 +155,7 @@ export default function Portfolio() {
           Full-Stack Developer & DevOps Engineer building impactful apps with MERN, AWS, and CI/CD.
         </motion.p>
         <div className="flex gap-4 z-10">
-          <a href="/resume.pdf" download>
+          <a href={resume}>
             <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-lg shadow hover:opacity-90">
               📂 Download Resume
             </button>
