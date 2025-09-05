@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
 import profile from '../profile.jpeg'
-import resume from '../karthik_resume_.pdf'
+import resume from '../kr_final_resume.pdf'
 
 export default function Portfolio() {
   const [formData, setFormData] = useState({ name: "", email: "", msg: "" });
