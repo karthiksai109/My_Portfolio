@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
-import profile from '../profile.jpeg'
+import profile from '../lindin_pro.png'
 import resume from '../kr_final_resume.pdf'
 
 export default function Portfolio() {
